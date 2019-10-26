@@ -9,10 +9,12 @@
   "author": "Aron Homberg <info@aron-homberg.de>",
   "license": "MIT",
   "devDependencies": {
-    "springtype": "^2.0.0-alpha.1.15",
     "st-start": "2.0.0-alpha.16",
     "@types/node": "^12.7.12",
     "cross-env": "^6.0.3",
     "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "springtype": "^2.0.0-alpha.1.15"
   }
 }
