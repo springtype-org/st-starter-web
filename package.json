@@ -1,6 +1,6 @@
 {
   "name": "st-starter-web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A SpringType web starter project template",
   "scripts": {
     "start:prod": "cross-env NODE_ENV=production st-start",
@@ -9,12 +9,12 @@
   "author": "Aron Homberg <info@aron-homberg.de>",
   "license": "MIT",
   "devDependencies": {
-    "st-start": "2.0.0-alpha.16",
-    "@types/node": "^12.7.12",
+    "st-start": "2.0.0-alpha.21",
+    "@types/node": "^12.11.7",
     "cross-env": "^6.0.3",
-    "typescript": "^3.5.1"
+    "typescript": "^3.6.4"
   },
   "dependencies": {
-    "springtype": "^2.0.0-alpha.1.15"
+    "springtype": "^2.0.0-alpha.1.16"
   }
 }

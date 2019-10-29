@@ -1,10 +1,10 @@
 import { st } from "springtype/core";
-import { customElement } from "springtype/web/customelement";
+import { component } from "springtype/web/component";
 import { tsx } from "springtype/web/vdom";
 import "./polyfills";
 
-@customElement()
-export class IndexPage extends st.element {
+@component()
+export class IndexPage extends st.component {
   render() {
     return <p>Hello, world!</p>;
   }
